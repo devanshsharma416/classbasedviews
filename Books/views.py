@@ -38,7 +38,8 @@ class BookListView(ListView):
 #         context['books'] = Books.objects.all()
         
 #         return context
-
+class NewClass(DetailView):
+    pass
 
 class GenreView(ListView):
     model = Books
