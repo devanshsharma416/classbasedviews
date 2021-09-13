@@ -39,7 +39,7 @@ class BookListView(ListView):
         
 #         return context
 class NewClass(DetailView):
-    pass
+    print("Hello")
 
 class GenreView(ListView):
     model = Books
